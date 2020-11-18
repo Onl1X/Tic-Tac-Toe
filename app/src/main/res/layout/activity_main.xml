@@ -101,23 +101,22 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
     <LinearLayout
-        android:layout_marginBottom="50dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
         android:orientation="vertical"
-        android:layout_gravity="bottom|center_horizontal">
-
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/playAgainButton"
+            android:id="@+id/gameRestartButton"
             android:layout_width="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="650dp"
             android:layout_height="wrap_content"
-            android:text="@string/try_again"
+            android:text="@string/play_again"
             android:textSize="15sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            />
+
+
     </LinearLayout>
 
 </FrameLayout>
