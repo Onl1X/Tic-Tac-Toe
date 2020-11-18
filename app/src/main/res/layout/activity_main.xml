@@ -101,21 +101,21 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
     <LinearLayout
-        android:layout_marginBottom="60dp"
-        android:orientation="vertical"
-        android:layout_gravity="bottom|center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/gameRestartButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/play_again"
             android:textSize="15sp"
-            android:textStyle="bold"
-            />
-
+            android:textStyle="bold" />
 
     </LinearLayout>
 
